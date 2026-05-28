@@ -1,10 +1,6 @@
 # 🫀 CardioSentinel MAS
 
-**A production-grade multi-agent clinical decision support system for cardiovascular disease management.**
-
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
-[![LangGraph](https://img.shields.io/badge/orchestration-LangGraph-green.svg)](https://langchain-ai.github.io/langgraph/)
-[![Streamlit](https://img.shields.io/badge/UI-Streamlit-red.svg)](https://streamlit.io/)
+**A multi-agent clinical decision support system for cardiovascular disease management.**
 
 
 > ⚠️ **Research & Demonstration Only.** This system is not intended for clinical use without regulatory approval, clinical validation, and EHR integration.
@@ -333,6 +329,38 @@ cardiosentinel_mas/
 ├── .env.example
 └── .streamlit/config.toml
 ```
+
+---
+
+## 🛠 Tech Stack
+![Multi-Agent](https://img.shields.io/badge/Architecture-Multi--Agent-blueviolet?style=for-the-badge)
+![Human in the Loop](https://img.shields.io/badge/HITL-Enabled-success?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-Powered-orange?style=for-the-badge)
+![Clinical AI](https://img.shields.io/badge/Domain-Clinical_AI-red?style=for-the-badge)
+
+### Core
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-121212?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+
+### Testing & Deployment
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
+
+### Validation & Data
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge)
+![dotenv](https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge)
+
+### AI & LLMs
+![Claude](https://img.shields.io/badge/Claude-000000?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
+
+
 
 ---
 
