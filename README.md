@@ -116,7 +116,7 @@ END
 
 ## Agents & Tools
 
-![ai agents taking care of a patient](images/cardiosentinel_mas.png)
+![ai agents taking care of a patient](images/cardiosentinel_mas2.png)
 
 ### Agents
 
