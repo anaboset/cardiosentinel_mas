@@ -1,0 +1,24 @@
+[theme]
+primaryColor = "#E63946"
+backgroundColor = "#1A1A1A"
+secondaryBackgroundColor = "#262730"
+textColor = "#F1FAEE"
+font = "sans serif"
+
+[client]
+showErrorDetails = true
+toolbarMode = "viewer"
+showSidebarNavigation = false
+
+[logger]
+level = "debug"
+
+[server]
+port = 8501
+headless = true
+runOnSave = true
+maxUploadSize = 200
+enableXsrfProtection = true
+
+[deprecation]
+showPyplotGlobalUse = false

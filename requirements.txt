@@ -1,0 +1,21 @@
+# Core LLM & Orchestration
+groq>=0.4.0
+langchain>=0.1.0
+langchain-groq>=0.1.0
+langgraph>=0.1.0
+
+# UI
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.6
+
+# Data & Schema
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=8.0.0
+pytest-mock>=3.14.0
+pytest-asyncio>=0.21.0
+
+# Utilities
+python-dateutil>=2.8.0
