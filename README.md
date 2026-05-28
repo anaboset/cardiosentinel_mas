@@ -11,7 +11,7 @@
 
 ---
 
-![cardiosenntinel_mas preview](cardiosentinel_mas.gif)
+![cardiosenntinel_mas preview](images/cardiosentinel_mas.gif)
 
 ---
 
@@ -116,7 +116,7 @@ END
 
 ## Agents & Tools
 
-![ai agents taking care of a patient](cardiosentinel_mas.png)
+![ai agents taking care of a patient](images/cardiosentinel_mas.png)
 
 ### Agents
 
@@ -179,7 +179,7 @@ If an agent fails after all retries, it returns an empty default output, logs th
 - Triggers on manual review request
 - Clinician reviews: recommendations, evidence sources, confidence levels
 
-![cardiosentinel human in the loop](cardiosentinel_hitl.png)
+![cardiosentinel human in the loop](images/cardiosentinel_hitl.png)
 
 ### Decision Actions
 
