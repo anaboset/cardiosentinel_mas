@@ -307,17 +307,17 @@ cardiosentinel_mas/
 │
 ├── ui/                           # Streamlit UI
 │   ├── app.py
-│   ├── pages/
-│   │   ├── home.py
-│   │   ├── new_analysis.py
-│   │   ├── workflow.py
-│   │   ├── review.py
-│   │   ├── results.py
-│   │   └── history.py
 │   ├── components/
 │   │   └── components.py         # Reusable UI components
 │   └── styles/
 │       └── theme.py              # Cardiovascular theme (300+ CSS rules)
+├── pages/
+│   ├── home.py
+│   ├── new_analysis.py
+│   ├── workflow.py
+│   ├── review.py
+│   ├── results.py
+│   └── history.py
 │
 ├── tests/
 │   ├── test_agents.py
