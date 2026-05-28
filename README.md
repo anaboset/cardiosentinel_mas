@@ -112,25 +112,6 @@ FINALIZE_REPORT
 END
 ```
 
-### Workflow State
-
-Every node reads from and writes to a shared `WorkflowState`:
-
-```python
-@dataclass
-class WorkflowState:
-    patient_data: dict              # Demographics, vitals, labs
-    query: str                      # Clinical question
-    guidelines: GuidelineOutput     # Evidence-based recommendations
-    risk: RiskOutput                # Risk score and classification
-    medication_safety: ...          # Interaction and contraindication results
-    patient_communication: ...      # Plain-language summary
-    human_review_needed: bool       # Triggers approval checkpoint
-    human_decisions: List[...]      # Clinician approvals/modifications
-    audit_trail: List[AuditEntry]   # Append-only decision log
-    execution_metadata: ...         # Timing and performance
-```
-
 ---
 
 ## Agents & Tools
@@ -197,6 +178,8 @@ If an agent fails after all retries, it returns an empty default output, logs th
 **Checkpoint 3 — Clinical Guidelines**
 - Triggers on manual review request
 - Clinician reviews: recommendations, evidence sources, confidence levels
+
+![cardiosentinel human in the loop](cardiosentinel_hitl.png)
 
 ### Decision Actions
 
@@ -434,11 +417,4 @@ This is a **demonstration system for research purposes only**. It must not be us
 
 ---
 
-## Resources
-
-- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
-- [Streamlit Documentation](https://docs.streamlit.io/)
-- [ACC/AHA Clinical Guidelines](https://www.acc.org/)
-
----
-
+*Built by a passionate AI Engineer and Pharmacy Student*
